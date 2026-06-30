@@ -1,0 +1,17 @@
+{
+  "id": "org.shuuujin.v2",
+  "version": "1.0.0",
+  "name": "🇹🇷 shuUujin V2",
+  "description": "Dizi ve Film Kaynakları",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["movie", "series", "anime"],
+  "idPrefixes": ["shj_"],
+  "catalogs": [
+    {
+      "id": "shj_search",
+      "type": "movie",
+      "name": "shuUujin Arama",
+      "extra": [{ "name": "search", "isRequired": true }]
+    }
+  ]
+}
